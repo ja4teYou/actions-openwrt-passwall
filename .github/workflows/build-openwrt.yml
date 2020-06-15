@@ -26,10 +26,10 @@ env:
   REPO_BRANCH: dev-lean-lede
   CONFIG_FILE: .config
   DIY_SH: diy.sh
-  FREE_UP_DISK: false
+  FREE_UP_DISK: ture
   SSH_ACTIONS: true
-  UPLOAD_BIN_DIR: false
-  UPLOAD_FIRMWARE: true
+  UPLOAD_BIN_DIR: ture
+  UPLOAD_FIRMWARE: ture
   TZ: Asia/Shanghai
 
 jobs:
