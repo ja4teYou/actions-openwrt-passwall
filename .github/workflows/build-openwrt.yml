@@ -51,7 +51,7 @@ jobs:
         curl -fsSL https://raw.githubusercontent.com/P3TERX/dotfiles/master/.bashrc >> ~/.bashrc
 
     - name: Free up disk space
-      if: env.FREE_UP_DISK == 'true'
+      if: env.FREE_UP_DISK == 'false'
       env:
         DEBIAN_FRONTEND: noninteractive
       run: |
